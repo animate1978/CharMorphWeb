@@ -24,7 +24,6 @@ html_permalinks_icon = '<span>#</span>'
 html_theme = 'classic'
 
 html_theme_options = {
-    'style_nav_header_background': 'green',  # Set the header background to green
     'collapse_navigation': False,  # Show full file tree in the sidebar
     'sticky_navigation': True,  # Keep the navigation sticky
     'navigation_depth': 4,  # Adjust the depth of the navigation tree
