@@ -12,15 +12,16 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
+    'sphinx_rtd_theme'
 ]
 
-templates_path = ['_templates']
+templates_path = ['_static']
 exclude_patterns = []
 
 # -- Options for HTML output -------------------------------------------------
 
 html_permalinks_icon = '<span>#</span>'
-html_theme = 'classic'
+html_theme = 'alabaster'
 
 html_theme_options = {
     'collapse_navigation': False,  # Show full file tree in the sidebar
