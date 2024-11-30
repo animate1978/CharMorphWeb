@@ -24,10 +24,10 @@ html_permalinks_icon = '<span>#</span>'
 html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
-    'collapse_navigation': False,  # Show full file tree in the sidebar
-    'sticky_navigation': True,  # Keep the navigation sticky
-    'navigation_depth': 4,  # Adjust the depth of the navigation tree
-    'titles_only': False,  # Show both titles and toctrees in sidebar
+    #'collapse_navigation': False,  # Show full file tree in the sidebar
+    #'sticky_navigation': True,  # Keep the navigation sticky
+    #'navigation_depth': 4,  # Adjust the depth of the navigation tree
+    #'titles_only': False,  # Show both titles and toctrees in sidebar
 }
 
 html_static_path = ['_static']
