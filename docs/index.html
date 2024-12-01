@@ -1,11 +1,7 @@
 <!DOCTYPE html>
-
-<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="./" lang="en" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
 <head>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta charset="utf-8"/>
-<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
-<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>Welcome to Charmorph’s documentation! | CharMorph  documentation</title>
 <meta content="Welcome to Charmorph’s documentation! | CharMorph  documentation" property="og:title"/>
