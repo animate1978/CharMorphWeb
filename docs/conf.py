@@ -34,5 +34,5 @@ html_static_path = ['_static']
 
 # Custom CSS and JavaScript
 def setup(app):
-    app.add_css_file('basic.css')
-    app.add_js_file('custom.js')  # Include the custom JavaScript file
+    app.add_css_file('theme.css')
+    #app.add_js_file('custom.js')  # Include the custom JavaScript file
